@@ -4,7 +4,7 @@ local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local lp = Players.LocalPlayer
 
-local TARGET_SPEED = 30
+local TARGET_SPEED = 27
 
 RunService.RenderStepped:Connect(function()
     local char = lp.Character
